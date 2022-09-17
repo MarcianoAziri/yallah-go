@@ -565,6 +565,18 @@ footer {
 }
 
 @media only screen and (max-width: 1050px) {
+    .challenge {
+        min-height: 700px;
+    }
+
+    .challenge .map {
+        min-height: 700px;
+    }
+
+    .challenge .info {
+        min-height: 700px;
+    }
+
     .challenge .info .text {
         flex-direction: column;
     }
