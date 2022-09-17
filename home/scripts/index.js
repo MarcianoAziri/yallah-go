@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
 //LANDING
-let landingLogo = document.querySelector('.landing .logo');
+let landingLogo = document.querySelectorAll('.landing img');
 let countdown = document.querySelector('.countdown-timer');
 let donateButton = document.querySelector('.landing .donate-button');
 
