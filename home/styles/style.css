@@ -350,13 +350,15 @@ nav .donate-button:hover {
 
 .challenge {
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
+    min-height: 650px;
     position: relative;
 }
 
 .challenge .map {
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
+    min-height: 650px;
     background-color: var(--dark);
     display: flex;
     justify-content: center;
@@ -368,8 +370,8 @@ nav .donate-button:hover {
 }
 
 .challenge .map img {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     object-position: center center;
 }
@@ -380,7 +382,8 @@ nav .donate-button:hover {
 
 .challenge .info {
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
+    min-height: 650px;
     background-color: var(--dark);
     position: absolute;
     top: 0;
