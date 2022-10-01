@@ -61,3 +61,33 @@
     20% {bottom: 15px;}
     100% {bottom: 15px;}
 }
+
+footer {
+    padding: 10px;
+    background-color: var(--dark);
+    color: rgba(255, 250, 251, 0.5);
+    text-align: center;
+}
+
+footer .contact {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .contact .details {
+    text-align: left;
+}
+
+footer .contact .terms a {
+    color: rgba(255, 250, 251, 0.5);
+    text-decoration: none;
+}
+
+footer .contact .terms a:hover {
+    text-decoration: underline;
+}

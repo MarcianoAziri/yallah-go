@@ -524,13 +524,6 @@ nav .donate-button:hover {
    transform: scale(1.05) !important;
 }
 
-footer {
-    padding: 10px;
-    background-color: var(--dark);
-    color: rgba(255, 250, 251, 0.5);
-    text-align: center;
-}
-
 @keyframes marquee {
     0% {
         transform: translateX(-100%);
